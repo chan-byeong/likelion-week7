@@ -26,6 +26,7 @@ const Detail = () => {
     <div>
       <h1>세모</h1>
       <p>세모 페이지</p>
+      <p>세모 페이지 test</p>
       <Triangle as='button' onClick={() => navigate('/')}></Triangle>
     </div>
   );
