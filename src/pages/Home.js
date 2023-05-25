@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+//about 네모
+//detail 세모
+//hello 동그라미
+
 const Home = () => {
   return (
     <div>
@@ -11,6 +15,7 @@ const Home = () => {
       <Link to="/detail">Detail</Link>
       <div></div>
       <Link to="/hello">Hello</Link>
+      <div>HI</div>
     </div>
   );
 };
