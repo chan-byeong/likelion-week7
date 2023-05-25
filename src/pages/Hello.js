@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components"
 
 const Hello = () => {
+  const nav = useNavigate();
   return (
     <div>
       <h1>동그라미</h1>
@@ -17,4 +18,3 @@ export default Hello;
 
 const Circle = styled(Rec)`
   border-radius : 50%;
-`;
