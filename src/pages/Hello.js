@@ -7,7 +7,7 @@ const Hello = () => {
     <div>
       <h1>동그라미</h1>
 
-      <circle title="동그라미" color="#2E8B57" id="btn">동그라미</circle>
+      <circle onClick={()=>{nav("/home")}} color="#2E8B57" id="btn">동그라미</circle>
       <Link to="/">Home</Link>
     </div>
   );
